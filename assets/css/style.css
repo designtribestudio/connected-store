@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: fit-content;
+    width: 100vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+nav .navbar {
+    padding: 20px 0;
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar .links a button.search {
+    padding: 9px 16px;
+    border: none;
+    background: linear-gradient(90deg, #00EAC3 0%, #3374E2 145.76%);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.hero {
+    width: 100vw;
+    padding: 300px 0;
+    background: url('../images/Subtract.png');
+    background-size: cover;
+}
+
+.hero-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.hero .hero-container h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero .hero-container p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.main {
+    width: 100vw;
+}
+
+.main-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.main .main-container h1 {
+    max-width: 707px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #35224A;
+    margin: 130px auto;
+}
+
+.main .main-container h1 span {
+    color: #01CAA9;
+}
+
+.main .main-container .main-img-container {
+    width: 842px;
+    margin: 0 auto;
+}
+
+.best {
+    width: 100vw;
+}
+
+.best-container {
+    max-width: 862px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.best .best-container h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #35224A;
+}
+
+.best .best-container h1 span {
+    color: #01CAA8;
+}
+
+.best .best-container p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #35224A;
+}
+
+.small-head {
+    width: fit-content;
+    padding: 17px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background: linear-gradient(90deg, #E9528C 0%, #AE42DF 55.21%, #6194F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 108px auto 73px auto;
+}
+
+/* FOOTER */
+footer {
+    width: 100vw;
+    background: rgba(37, 65, 95, 1);
+    padding: 72px 0;
+    position: relative;
+}
+
+.footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.footer h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.footer p {
+    max-width: 617px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 24px 0 34px 0;
+}
+
+.footer button {
+    padding: 16px 24px;
+    gap: 10px;
+    border: none;
+    width: 154px;
+    height: 56px;
+
+    background: #FFFFFF;
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer button:hover {
+    background: #3374E2;
+    color: #ffffff;
+}
+
+footer::after {
+    content: url('../images/footer-wm.svg');
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
