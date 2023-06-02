@@ -55,6 +55,8 @@ nav .navbar .links a button.search {
 }
 
 .hero .hero-container p {
+    width: 828px;
+    margin: 0 auto;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
@@ -622,8 +624,9 @@ margin: 25px;
 }
 
 .more-container{
-    padding: 50px 0;
+    padding: 50px 0 150px 0;
     width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
@@ -642,9 +645,37 @@ color: #35224A;
 } 
 
 .more-right{
+    margin-left: 50px;
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    gap: 20px;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+.more-right .card{
+    width: 330px;
+    background: transparent;
+    box-shadow: none;
+
+}
+
+.more-right .card .card-img, .more-right .card .card-img img{
+    width: 330px;
+}
+
+.more-right .card h1{
+    margin: 20px 0;
+    font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+}
+
+.more-right .card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #A7A7A7;
+    margin: 0;
 }
 /* MORE END */
 /* FOOTER */

@@ -1,0 +1,353 @@
+.delivery{
+    background: url('../images/client-experience.png');
+}
+
+
+/* .best {
+    width: 100vw;
+}
+
+.best-container {
+    max-width: 862px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.best .best-container h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #35224A;
+}
+
+.best .best-container h1 span {
+    color: #01CAA8;
+}
+
+.best .best-container p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #35224A;
+} */
+
+/* .small-head{
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+} */
+/* .small-head-container {
+    width: fit-content;
+    padding: 17px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    background: linear-gradient(90deg, #E9528C 0%, #AE42DF 55.21%, #6194F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 108px auto 73px auto;
+} */
+
+
+/* CONNECT CONTAINER*/
+/* .connect{
+    width: 100vw;
+}
+
+.connect-container{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+} */
+/* CONNECT CONTAINER END */
+/* CONNECT RIGHT AND LEFT */
+
+/* .l-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 168.27px;
+    height: 168.27px;
+    background: rgba(51, 116, 226, 0.5);
+    border-radius: 30px;
+}
+
+.l-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 153.13px;
+    height: 153.13px;
+    background: #3374E2;
+    border-radius: 24px;
+}
+
+.l-inner-inner {
+    width: 131.25px;
+    height: 131.25px;
+    border: 2px dashed #00EAC3;
+    border-radius: 16px;
+    position: relative;
+    z-index: 4;
+}
+
+.lii-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    transition: height 0.5s;
+    position: absolute;
+    bottom: 20px;
+}
+
+
+.l-inner-inner p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.r-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 168.27px;
+    height: 168.27px;
+    background: rgba(0, 234, 195, 0.5);
+    border-radius: 30px;
+}
+
+.r-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 153.13px;
+    height: 153.13px;
+    border-radius: 24px;
+    background: #00EAC3;
+}
+
+.r-inner-inner {
+    width: 131.25px;
+    height: 131.25px;
+    border: 2px dashed #35224A;
+    border-radius: 16px;
+    position: relative;
+    z-index: 4;
+}
+
+.rii-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    transition: height 0.5s;
+    position: absolute;
+    bottom: 20px;
+}
+
+.r-inner-inner p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #35224A;
+}
+
+#leftMore {
+    display: none;
+    font-size: 30px;
+    line-height: 30px !important;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.l-inner-inner:hover #leftMore {
+    display: block;
+}
+
+.l-inner-inner:hover .lii-more {
+    height: 84px;
+}
+
+#rightMore {
+    display: none;
+    font-size: 30px;
+    line-height: 30px !important;
+    color: #35224A;
+    padding: 0;
+    margin: 0;
+}
+
+.r-inner-inner:hover #rightMore {
+    display: block;
+}
+
+.r-inner-inner:hover .rii-more {
+    height: 84px;
+}
+
+.l-inner-inner,
+.r-inner-inner {
+    cursor: pointer;
+} */
+/* CONNECT END */
+
+/* MSC */
+
+/* .msc{
+    width: 100vw;
+    padding: 200px 0;
+}
+
+.mer{
+    width: 976px;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.m-outer{
+    width: 376px;
+    height: 376px;
+    background: linear-gradient(137.47deg, rgba(49, 121, 225, 0.5) 11.74%, rgba(29, 168, 213, 0.5) 88.87%);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.m-inner{
+    width: 335px;
+    height: 335px;
+    background: linear-gradient(144.51deg, #3374E2 15.61%, #1BABD4 87.15%);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.m-inner .text{
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.ss{
+    width: 884px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ss-outer{
+    width: 376px;
+    height: 376px;
+    background: linear-gradient(137.47deg, rgba(31, 163, 214, 0.5) 11.74%, rgba(22, 184, 208, 0.5) 88.87%);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ss-inner{
+    width: 335px;
+    height: 335px;
+    background: linear-gradient(144.51deg, #1FA3D6 15.61%, #16B8D0 87.15%);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ss-inner .text{
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.sc{
+    width: 884px;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sc-outer{
+    width: 376px;
+    height: 376px;
+    background: rgba(0, 234, 195, 0.5);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sc-inner{
+    width: 335px;
+    height: 335px;
+    background: linear-gradient(144.51deg, #14BCCF 15.61%, #01EAC3 87.15%);
+border-radius: 679.733px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sc-inner .text{
+    font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+} */
+/* MSC END */
+
+/* CHALLENGES */
+/* .challenges{
+    width: 100vw;
+    height: fit-content;
+    background: url('../images/image\ 136.png');
+    background-size: cover;
+}
+
+.challenges-container{
+    width: 100vw;
+    height: fit-content;
+    background: linear-gradient(107.46deg, #049785 12.63%, #001528 82.54%);
+mix-blend-mode: normal;
+opacity: 0.7;
+backdrop-filter: blur(17.5px);
+padding: 131px 0;
+}
+
+.challenges-inner{
+    width: 1040px;
+    margin: 0 auto;
+} */
+/* CHALLENGES END */
+
