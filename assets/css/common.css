@@ -163,21 +163,6 @@ display: flex;
     box-shadow: none;
 }
 
-.video{
-    width: 100vw;
-    height: 500px;
-    background-color: dimgray;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 50px;
-    color: white;
-}
-
-.video-container{
-    text-align: center;
-}
-
 /* CUSTOMER */
 .customer{
     width: 100vw;
@@ -541,3 +526,79 @@ footer::after {
 }
 
 /* FOOTER END */
+
+
+.video{
+    width: 100vw;
+    height: 1074px;
+}
+
+.video-container{
+    overflow: hidden;
+    padding: 160px 0;
+    /* margin-left: 17vw; */
+    
+}
+
+.v-cards{
+    width: 1040px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1000px 1000px;
+    column-gap: 63px;
+}
+.v-card{
+    width: 997px;
+    height: 752px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 17px 6px rgba(0, 0, 0, 0.07);
+border-radius: 12px;
+}
+
+.v-logo{
+    margin: 27px 45px 10px 45px;
+}
+
+video{
+    width: 925px;
+    height: 575.62px;
+}
+
+.yt-vid{
+    width: 925px;
+    margin: 0 auto 30px auto;
+}
+
+.v-title{
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+margin: 0 39px;
+}
+
+.controls{
+    width: 208px;
+    margin: 43px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dotcontainer{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+
+.dot.active{
+    background: #3E6691;
+}
