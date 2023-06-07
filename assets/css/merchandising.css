@@ -1,8 +1,72 @@
 .delivery{
     background: url('../images/client-experience.png');
 }
+.sol-cards{
+    margin-top: -140px;
+    width: 940;
+    padding: 0 50px;
+    height: 513px;
+    background: #FFFFFF;
+box-shadow: 2px 2px 16px 2px rgba(0, 0, 0, 0.06);
+display: flex;
+justify-content: space-around;
+}
 
+.sol-cards .card{
+    width: 100%;
+    margin-top: 185px;
+    background: none;
+    box-shadow: none;
+    height: 280px;
+    position: relative;
+}
 
+.sol-cards .card:not(:nth-child(1)){
+    margin-left: 35px;
+}
+
+.sol-cards .card h1{
+    font-weight: 700;
+    margin: 15px 0 5px 0;
+font-size: 16px;
+line-height: 19px;
+text-align: left;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.sol-cards .card p{
+    font-weight: 400;
+    margin: 0;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+
+color: #000000;
+position: absolute;
+top: 130px;
+}
+
+.sol-cards .card button{
+    position: absolute;
+    bottom: 0;
+    padding: 12px 14px;
+    background: linear-gradient(90deg, #04E4BD 0%, #1AAAF3 100%);
+border-radius: 2px;
+color: #ffffff;
+border: none;
+}
+
+.hero {
+    width: 100vw;
+    padding: 300px 0 50px 0;
+    background: url('../images/merch-hero-bg.png');
+    background-size: cover;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
 /* .best {
     width: 100vw;
 }

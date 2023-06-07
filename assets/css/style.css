@@ -57,17 +57,17 @@ nav .navbar .links a button.search {
 } */
 .hero {
     width: 100vw;
-    padding: 300px 0 400px 0;
+    padding: 300px 0 50px 0;
     background: url('../images/landing-hero.png');
     background-size: cover;
     position: relative;
-    top: -100px;
+    top: 0px;
     z-index: -1;
 }
 
 .hero-container {
     width: 1040px;
-    margin: 0 auto;
+    margin: -100px auto 0 auto;
 }
 
 .hero .hero-container h1 {
@@ -89,6 +89,11 @@ nav .navbar .links a button.search {
     color: #FFFFFF;
 }
 
+.hero .hero-container .darrow{
+    width: 42px;
+    text-align: center;
+    margin: 150px auto;
+}
 .main {
     width: 100vw;
     position: relative;
@@ -656,6 +661,71 @@ nav .navbar .links a button.search {
     color: #000000;
 }
 
+.mid-banner{
+    width: 100vw;
+    padding: 100px 0;
+}
+
+.mid-banner-container{
+    width: 1300px;
+    height: 430px;
+    margin: 0 auto;
+    background: linear-gradient(107.46deg, #06DCC7 12.63%, #229CD8 82.54%);
+    /* background: url('../images/mb-bg.png'); */
+    background-size: cover;
+mix-blend-mode: normal;
+border-radius: 8px;
+position: relative;
+}
+
+.mid-banner-container h1{
+    padding-top: 102px;
+    margin: 0 0 0 83px;
+    width: 668px;
+    font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+}
+
+.mid-banner-container > p{
+    margin-left: 83px;
+    width: 668px;
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.goto {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    transition: width 0.5s;
+    margin-left: 83px;
+}
+
+.goto p{
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.goto:hover {
+    width: 220px;
+}
+
+.mb-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
 .delivery {
     width: 100vw;
     height: fit-content;
