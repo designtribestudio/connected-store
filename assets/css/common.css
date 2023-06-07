@@ -10,6 +10,8 @@ nav {
     width: 100vw;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+    position: fixed;
+    z-index: 15;
 }
 
 nav .navbar {
@@ -18,13 +20,27 @@ nav .navbar {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav .navbar .links {
     width: 50%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+nav .navbar .links a{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #35224A;
+text-decoration: none;
+}
+
 
 nav .navbar .links a button.search {
     padding: 9px 16px;
