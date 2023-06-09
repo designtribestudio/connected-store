@@ -877,7 +877,7 @@ color: #FFFFFF;
     width: 55px;
 }
 
-.power-card .card button {
+.power-card .card .power-btn {
     width: 250px;
     position: absolute;
     bottom: 0;
@@ -894,11 +894,13 @@ color: #FFFFFF;
     background: none;
     border-radius: 4px;
     padding: 15px 0;
+    cursor: pointer;
 }
 
-.power-card .card button.active {
+.power-card .card .power-btn.active {
     color: #FFFFFF;
     background: linear-gradient(90deg, #00EAC3 0%, #3374E2 145.76%);
+    cursor: unset;
 }
 
 /* POWER CARD END */
@@ -921,54 +923,54 @@ color: #FFFFFF;
 }
 
 .dynamic-container p {
-    max-width: 900px;
+    width: 900px;
     font-size: 16px;
     line-height: 19px;
 
     color: #000000;
 }
 
-.dynamic-flow-container {
+.dynamic-container .dynamic-flow-container {
     display: flex;
 }
 
-.dynamic-flow-container .root {
+.dynamic-container .dynamic-flow-container .root {
     margin-top: 53px;
     position: relative;
     z-index: 2;
 }
 
-.dynamic-flow-container .root-img {
+.dynamic-container .dynamic-flow-container .root-img {
     margin-bottom: 28px;
 }
 
-.dynamic-flow-container .level-one-lines {
+.dynamic-container .dynamic-flow-container .level-one-lines {
     position: relative;
     top: 40px;
     left: -40px;
 }
 
-.dynamic-flow-container .level-one {
+.dynamic-container .dynamic-flow-container .level-one {
     position: relative;
     top: -20px;
     left: -58px;
     z-index: 2;
 }
 
-.dynamic-flow-container .level-two-lines {
+.dynamic-container .dynamic-flow-container .level-two-lines {
     position: relative;
     left: -80px;
     top: 335px;
 }
 
-.dynamic-flow-container .level-two {
+.dynamic-container .dynamic-flow-container .level-two {
     position: relative;
     left: -100px;
     top: 270px;
     z-index: 2;
 }
 
-.dynamic-foot {
+.dynamic-container .dynamic-foot {
     margin-top: 57px;
     width: 1127px;
     background: #FFFFFF;
@@ -982,6 +984,88 @@ color: #FFFFFF;
     color: #35224A;
 }
 
+.dynamic-container .dynamic-foot p{
+    width: 1127px;
+}
+
+.dynamic-container-2 {
+    width: 1240px;
+    margin: 79px auto;
+    display: none;
+}
+
+.dynamic-container-2 h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #35224A;
+}
+
+.dynamic-container-2 p {
+    width: 900px;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.dynamic-container-2 .dynamic-flow-container {
+    display: flex;
+}
+
+.dynamic-container-2 .dynamic-flow-container .root {
+    margin-top: 133px;
+    position: relative;
+    z-index: 2;
+}
+
+.dynamic-container-2 .dynamic-flow-container .root-img {
+    margin-bottom: 28px;
+}
+
+.dynamic-container-2 .dynamic-flow-container .level-one-lines {
+    position: relative;
+    top: 70px;
+    left: -40px;
+}
+
+.dynamic-container-2 .dynamic-flow-container .level-one {
+    position: relative;
+    top: 0;
+    left: -58px;
+    z-index: 2;
+}
+
+.dynamic-container-2 .dynamic-flow-container .level-two-lines {
+    position: relative;
+    left: -80px;
+    top: 70px;
+}
+
+.dynamic-container-2 .dynamic-flow-container .level-two {
+    position: relative;
+    left: -100px;
+    top: 0;
+    z-index: 2;
+}
+
+.dynamic-container-2 .dynamic-foot {
+    margin-top: 57px;
+    width: 1127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 23px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #35224A;
+}
+
+.dynamic-container-2 .dynamic-foot p{
+    width: 1127px;
+}
 /* DYNAMIC END */
 
 /* TRUSTED */
