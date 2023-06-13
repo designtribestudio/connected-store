@@ -555,6 +555,7 @@ nav .navbar .links a button.search {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .m-inner {
@@ -591,6 +592,7 @@ nav .navbar .links a button.search {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .ss-inner {
@@ -628,6 +630,7 @@ nav .navbar .links a button.search {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .sc-inner {
