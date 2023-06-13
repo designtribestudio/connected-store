@@ -1,5 +1,6 @@
 .delivery{
     background: url('../images/client-experience.png');
+    background-size: cover;
 }
 .sol-cards{
     margin-top: -140px;

@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/common.css">
     <link rel="stylesheet" href="../assets/css/supplychain.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Supply Chain</title>
 </head>
 
@@ -43,6 +45,9 @@
         <div class="main-container">
             <h1><span>Connected</span> Supply Chain</h1>
             <div class="main-img-container"><img src="../assets/images/sc-main.svg" alt="" class="main-img">
+                <div class="linker-1" onclick="location.href='../store-and-space'"></div>
+                <div class="linker-2" onclick="location.href='../merchandising'"></div>
+                <div class="linker-3" onclick="location.href='../supply-chain'"></div>
             </div>
         </div>
     </div>
@@ -176,8 +181,33 @@
     <div class="power">
         <h1>The Power of Connectivity</h1>
         <p>The possibilities when our merchandising solutions are connected to store & space and supply chain solutions </p>
-        <div class="power-img">
-            <img draggable="false" src="../assets/images/seamless-img.svg" alt="">
+        <div class="power-cards-container" id="pcc">
+            <div class="power-card active" id="pc1">
+                <h1>Seamless execution of shopper insights to keep you ahead of shoppers</h1>
+                <ul>
+                    <li>Recommended space-aware assortment changes seamlessly reflected store level planograms.</li>
+                    <li>Demand planning forecasts new item cut-ins to ensure optimal ordering and space allocation.</li>
+                    <li>Real-time shelf visibility delivers feedback loop to ensure new planogram compliance.</li>
+                </ul>
+                <div class="pw1-btn" id="pw1-btn" onclick="document.getElementById('pcc').style='transform: translateX(-800px)';
+                document.getElementById('pc1').className='power-card';
+                document.getElementById('pc2').className='power-card active';
+                document.getElementById('pw1-btn').style='display: none';
+                document.getElementById('pw2-btn').style='display: block'"><img src="../assets/images/arrow-r.svg" alt=""></div>
+            </div>
+            <div class="power-card" id="pc2">
+                <h1>Anticipate shelf disruptions before they happen​</h1>
+                <ul>
+                    <li>Proactively identify future supply chain gaps and activate alerts.</li>
+                    <li>Identify optimal item replacement and deliver new planograms to impacted stores​.</li>
+                    <li>Interconnected data platform ensures continuous communication and product-to-shelf execution​.</li>
+                </ul>
+                <div class="pw2-btn" id="pw2-btn" onclick="document.getElementById('pcc').style='transform: translateX(0)';
+                document.getElementById('pc1').className='power-card active';
+                document.getElementById('pc2').className='power-card';
+                document.getElementById('pw1-btn').style='display: block';
+                document.getElementById('pw2-btn').style='display: none'"><img src="../assets/images/arrow-l.svg" alt=""></div>
+            </div>
         </div>
     </div>
 
@@ -186,19 +216,22 @@
             <h1>Our suite of <span>Supply Chain solutions</span></h1>
             <div class="sol-img"><img src="../assets/images/sc-img.svg" alt=""></div>
             <div class="sol-cards">
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
                     <div class="card-icon"><img src="../assets/images/sc/sc-1.svg" alt=""></div>
                     <h1>Supply Chain Intelligence</h1>
                     <p>Connecting the shopper, physical and digital shelf, and supply chain, providing the visibility and insights needed to drive better forecasting and decision-making.​</p>
                     <button>LEARN MORE</button>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
                     <div class="card-icon"><img src="../assets/images/sc/sc-2.svg" alt=""></div>
                     <h1>Forecasting & Replenishment</h1>
                     <p>The only fully AI-powered demand forecast platform for retailers and CPGs, for greater accuracy and better collaboration across planning, forecasting and replenishment.​​</p>
                     <button>LEARN MORE</button>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
                     <div class="card-icon"><img src="../assets/images/sc/sc-3.svg" alt=""></div>
                     <h1>Supply Chain Management</h1>
                     <p>Maximizing value while ensuring worry-free, seamless execution of core supply chain processes</p>
@@ -210,7 +243,7 @@
 
     <div class="video">
         <div class="video-container">
-            <div class="v-cards">
+            <div class="v-cards" id="v-cards">
                 <div class="v-card">
                     <div class="v-logo"><img src="../assets/images/sym-video-logo.svg" alt=""></div>
                     <div class="yt-vid">
@@ -228,12 +261,20 @@
             </div>
 
             <div class="controls">
-                <div class="arrow-l"><img src="../assets/images/arrow-l.svg" alt=""></div>
+                <div class="arrow-l" onclick="document.getElementById('v-cards').style='transform: translateX(0)';
+                document.getElementById('arrow-l').src='../assets/images/arrow-l-off.svg';
+                document.getElementById('arrow-r').src='../assets/images/arrow-r.svg'
+                document.getElementById('dot1').className='dot active';
+                document.getElementById('dot2').className='dot'"><img src="../assets/images/arrow-l-off.svg" alt="" id="arrow-l"></div>
                 <div class="dotcontainer">
-                    <div class="dot active"></div>
-                    <div class="dot"></div>
+                    <div class="dot active" id="dot1"></div>
+                    <div class="dot" id="dot2"></div>
                 </div>
-                <div class="arrow-r"><img src="../assets/images/arrow-r.svg" alt=""></div>
+                <div class="arrow-r" onclick="document.getElementById('v-cards').style='transform: translateX(-1050px)';
+                document.getElementById('arrow-l').src='../assets/images/arrow-l.svg';
+                document.getElementById('arrow-r').src='../assets/images/arrow-r-off.svg'
+                document.getElementById('dot1').className='dot';
+                document.getElementById('dot2').className='dot active'"><img src="../assets/images/arrow-r.svg" alt="" id="arrow-r"></div>
             </div>
 
         </div>
@@ -337,6 +378,11 @@
                 tp2.style.visibility = 'hidden';
             }
         }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
     </script>
 </body>
 

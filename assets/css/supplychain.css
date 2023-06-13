@@ -1,5 +1,6 @@
 .delivery{
     background: url('../images/sc-bg.png');
+    background-size: cover;
 }
 
 .sol-cards{
