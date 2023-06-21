@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -15,500 +16,527 @@
 </head>
 
 <body>
-    <nav>
-        <div class="navbar">
-            <div class="logo"><a href="/"><img src="../assets/images/logo.png" alt=""></a></div>
-            <div class="links">
-                <a href="">Solutions</a>
-                <a href="">Resources</a>
-                <a href="">Events</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-                <a href=""><img src="./assets/images/search.png" alt=""></a>
-                <a href=""><button class="search">GET STARTED</button></a>
+    <div class="body-wrap">
+        <nav>
+            <div class="navbar">
+                <div class="logo"><a href="/"><img src="../assets/images/logo.png" alt=""></a></div>
+                <div class="links">
+                    <a href="">Solutions</a>
+                    <a href="">Resources</a>
+                    <a href="">Events</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href=""><img src="./assets/images/search.png" alt=""></a>
+                    <a href=""><button class="search">GET STARTED</button></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-container">
+                <h1>Connected AI Solutions for
+                    Smarter FMCG Retail CPG</h1>
+                <p>Bringing next generation AI-powered solutions to the Retail / CPG value chain to enable customer
+                    closeness, agility, and speed for today’s challenges and tomorrow’s solutions</p>
+                <div class="darrow"><img src="./assets/images/down-arrow.svg" alt=""></div>
             </div>
         </div>
-    </nav>
 
-    <div class="hero">
-        <div class="hero-container">
-            <h1>Connected AI Solutions for
-                Smarter FMCG Retail CPG</h1>
-            <p>Bringing next generation AI-powered solutions to the Retail / CPG value chain to enable customer
-                closeness, agility, and speed for today’s challenges and tomorrow’s solutions</p>
-            <div class="darrow"><img src="./assets/images/down-arrow.svg" alt=""></div>
+        <div class="main" id="main1">
+            <div class="cl"><img src="./assets/images/central-line.svg" alt=""></div>
+            <div class="main-container">
+                <h1>Our <span>AI-driven</span> solutions keep up with shopper’s changing needs.</h1>
+                <div class="main-img-container"><img src="./assets/images/main-img-closed.svg" alt="" class="main-img">
+                    <div class="m-mer">
+                        <div class="m-outer">
+                            <div class="m-inner">
+                                <div class="text">MERCHANDISING</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-ss">
+                        <div class="ss-outer">
+                            <div class="ss-inner">
+                                <div class="text">STORE AND SPACE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-sc">
+                        <div class="sc-outer">
+                            <div class="sc-inner">
+                                <div class="text">SUPPPLY CHAIN</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./assets/images/main-small.svg" alt="" class="main-img-small">
+                    <div class="linker-1" onclick="location.href='./merchandising'"></div>
+                    <div class="linker-2" onclick="location.href='./store-and-space'"></div>
+                    <div class="linker-3" onclick="location.href='./supply-chain'"></div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="main" id="main1">
-        <div class="cl"><img src="./assets/images/central-line.svg" alt=""></div>
-        <div class="main-container">
-            <h1>Our <span>AI-driven</span> solutions keep up with shopper’s changing needs.</h1>
-            <div class="main-img-container"><img src="./assets/images/main-img-closed.svg" alt="" class="main-img">
-                <div class="m-mer">
-                    <div class="m-outer">
+        <div class="best">
+            <div class="best-container">
+                <h1>Best-in-class <span>AI technology</span></h1>
+                <p>Eureka AI to next-gen Eureka Gen AI</p>
+            </div>
+        </div>
+
+        <div class="small-head">
+            <div class="small-head-container">
+                PREDICTIVE AND GENERATIVE AI APPLICATIONS​
+            </div>
+        </div>
+
+        <div class="connect">
+            <div class="connect-container">
+                <div class="vector">
+                    <div class="vector-container"><img draggable="false" src="./assets/images/vector line.svg" alt="">
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="l-outer">
+                        <div class="l-inner">
+                            <div class="l-inner-inner" onclick=LeftToggle()>
+                                <div class="lii-more" id="liim">
+                                    <p>CONNECTED INSIGHTS
+                                    </p>
+                                    <div id="leftMore" class="not-active">+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mid" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    <div class="mbox">
+                        <div class="mbox-inner mi1">
+                            Store and shelf intelligence​ <br>Co-pilots​
+                        </div>
+                    </div>
+                    <div class="mbox">
+                        <div class="mbox-inner mi2">
+                            Supply chain intelligence​​ <br>Co-pilots​
+                        </div>
+                    </div>
+                    <div class="mbox">
+                        <div class="mbox-inner mi3">
+                            Customer intelligence​​ <br>Co-pilots​
+                        </div>
+                    </div>
+                    <div class="mbox">
+                        <div class="mbox-inner mi4">
+                            Promotions intelligence​ <br>Co-pilots​
+                        </div>
+                    </div>
+                    <div class="mbox">
+                        <div class="mbox-inner mi5">
+                            Category management intelligence​ <br>Co-pilots​
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="r-outer">
+                        <div class="r-inner">
+                            <div class="r-inner-inner" onclick=RightToggle()>
+                                <div class="rii-more" id="riim">
+                                    <p>CONNECTED AVAILABILITY
+                                    </p>
+                                    <div id="rightMore" class="not-active">+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="connect-bot-container">
+                <div class="cbc-1" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">Reasoning capabilities</div>
+                <div class="cbc-2" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">Prompt engineered and fine-tuned Retail CPG
+                    LLMs​</div>
+                <div class="cbc-3" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50"
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">Core EurekaAI predictive intelligence
+                    technologies​</div>
+            </div>
+        </div>
+
+        <div class="connect-small">
+            <p><img src="./assets/images/Group 1000003070.svg" alt=""></p>
+        </div>
+
+
+        <div class="msc">
+            <div class="msc-container">
+                <div class="mer">
+                    <div class="m-outer" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        onclick="location.href='./merchandising'">
                         <div class="m-inner">
                             <div class="text">MERCHANDISING</div>
                         </div>
                     </div>
+                    <div class="m-list" id="mList" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <img src="./assets/images/mer-list.svg" alt="">
+                    </div>
                 </div>
-                <div class="m-ss">
-                    <div class="ss-outer">
+                <div class="ss">
+                    <div class="ss-list" id="ssList" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <img src="./assets/images/ss-list.svg" alt="">
+                    </div>
+                    <div class="ss-outer" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        onclick="location.href='./store-and-space'">
                         <div class="ss-inner">
                             <div class="text">STORE AND SPACE</div>
                         </div>
                     </div>
                 </div>
-                <div class="m-sc">
-                    <div class="sc-outer">
+                <div class="sc">
+                    <div class="sc-outer" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" onclick="location.href='./supply-chain'">
                         <div class="sc-inner">
                             <div class="text">SUPPPLY CHAIN</div>
                         </div>
                     </div>
-                </div>
-                <div class="linker-1" onclick="location.href='./merchandising'"></div>
-                <div class="linker-2" onclick="location.href='./store-and-space'"></div>
-                <div class="linker-3" onclick="location.href='./supply-chain'"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="best">
-        <div class="best-container">
-            <h1>Best-in-class <span>AI technology</span></h1>
-            <p>Eureka AI to next-gen Eureka Gen AI</p>
-        </div>
-    </div>
-
-    <div class="small-head">
-        <div class="small-head-container">
-            PREDICTIVE AND GENERATIVE AI APPLICATIONS​
-        </div>
-    </div>
-
-    <div class="connect">
-        <div class="connect-container">
-            <div class="vector">
-                <div class="vector-container"><img draggable="false" src="./assets/images/vector line.svg" alt=""></div>
-            </div>
-            <div class="left">
-                <div class="l-outer">
-                    <div class="l-inner">
-                        <div class="l-inner-inner" onclick=LeftToggle()>
-                            <div class="lii-more" id="liim">
-                                <p>CONNECTED INSIGHTS
-                                </p>
-                                <div id="leftMore" class="not-active">+</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mid" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
-                data-aos-easing="ease-in-out">
-                <div class="mbox">
-                    <div class="mbox-inner mi1">
-                        Store and shelf intelligence​ <br>Co-pilots​
-                    </div>
-                </div>
-                <div class="mbox">
-                    <div class="mbox-inner mi2">
-                        Supply chain intelligence​​ <br>Co-pilots​
-                    </div>
-                </div>
-                <div class="mbox">
-                    <div class="mbox-inner mi3">
-                        Customer intelligence​​ <br>Co-pilots​
-                    </div>
-                </div>
-                <div class="mbox">
-                    <div class="mbox-inner mi4">
-                        Promotions intelligence​ <br>Co-pilots​
-                    </div>
-                </div>
-                <div class="mbox">
-                    <div class="mbox-inner mi5">
-                        Category management intelligence​ <br>Co-pilots​
-                    </div>
-                </div>
-            </div>
-
-            <div class="right">
-                <div class="r-outer">
-                    <div class="r-inner">
-                        <div class="r-inner-inner" onclick=RightToggle()>
-                            <div class="rii-more" id="riim">
-                                <p>CONNECTED AVAILABILITY
-                                </p>
-                                <div id="rightMore" class="not-active">+</div>
-                            </div>
-                        </div>
+                    <div class="sc-list" id="scList" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <img src="./assets/images/sc-list.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="connect-bot-container">
-            <div class="cbc-1" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50" data-aos-duration="1000"
-                data-aos-easing="ease-in-out">Reasoning capabilities</div>
-            <div class="cbc-2" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50" data-aos-duration="1000"
-                data-aos-easing="ease-in-out">Prompt engineered and fine-tuned Retail CPG LLMs​</div>
-            <div class="cbc-3" data-aos="fade-down" data-aos-offset="400" data-aos-delay="50" data-aos-duration="1000"
-                data-aos-easing="ease-in-out">Core EurekaAI predictive intelligence technologies​</div>
-        </div>
-    </div>
-
-    <div class="msc">
-        <div class="msc-container">
-            <div class="mer">
-                <div class="m-outer" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out" onclick="location.href='./merchandising'">
-                    <div class="m-inner">
-                        <div class="text">MERCHANDISING</div>
-                    </div>
-                </div>
-                <div class="m-list" id="mList" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <img src="./assets/images/mer-list.svg" alt="">
-                </div>
-            </div>
-            <div class="ss">
-                <div class="ss-list" id="ssList" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <img src="./assets/images/ss-list.svg" alt="">
-                </div>
-                <div class="ss-outer" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out" onclick="location.href='./store-and-space'">
-                    <div class="ss-inner">
-                        <div class="text">STORE AND SPACE</div>
-                    </div>
-                </div>
-            </div>
-            <div class="sc">
-                <div class="sc-outer" data-aos="fade-left" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out" onclick="location.href='./supply-chain'">
-                    <div class="sc-inner">
-                        <div class="text">SUPPPLY CHAIN</div>
-                    </div>
-                </div>
-                <div class="sc-list" id="scList" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <img src="./assets/images/sc-list.svg" alt="">
+        <div class="challenges">
+            <div class="challenges-container">
+                <div class="challenges-inner">
+                    <img src="./assets/images/challenges-list.svg" alt="">
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="challenges">
-        <div class="challenges-container">
-            <div class="challenges-inner">
-                <img src="./assets/images/challenges-list.svg" alt="">
-            </div>
+        <div class="mid-text">
+            Our connected Retail and CPG solutions solve these challenges with the seamless orchestration of data,
+            actionable insights, and autonomous workflows that enable best-in-class customer experiences and profitable
+            growth
         </div>
-    </div>
 
-    <div class="mid-text">
-        Our connected Retail and CPG solutions solve these challenges with the seamless orchestration of data,
-        actionable insights, and autonomous workflows that enable best-in-class customer experiences and profitable
-        growth
-    </div>
-
-    <div class="cards">
-        <div class="card" id="card1" onmouseover="document.getElementById('card1icon').src='./assets/images/hub-white.svg'; 
+        <div class="cards">
+            <div class="card" id="card1" onmouseover="document.getElementById('card1icon').src='./assets/images/hub-white.svg'; 
         document.getElementById('card1arrow').src='./assets/images/Arrow 1-white.svg'" onmouseout="document.getElementById('card1icon').src='./assets/images/hub.svg'; 
         document.getElementById('card1arrow').src='./assets/images/Arrow 1.svg'">
-            <div class="card-top">
-                <div class="icon"><img id="card1icon" src="./assets/images/hub.svg" alt=""></div>
-                <div class="arrow"><img id="card1arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                <div class="card-top">
+                    <div class="icon"><img id="card1icon" src="./assets/images/hub.svg" alt=""></div>
+                    <div class="arrow"><img id="card1arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                </div>
+                <h1>Singular, connected platform for better decision making</h1>
+                <p>We leverage Retailer, CPG, and contextual data to create one integrated view of the value chain to
+                    drive
+                    unbiased collaboration and more informed data-based decisions.</p>
             </div>
-            <h1>Singular, connected platform for better decision making</h1>
-            <p>We leverage Retailer, CPG, and contextual data to create one integrated view of the value chain to drive
-                unbiased collaboration and more informed data-based decisions.</p>
-        </div>
-        <div class="card" id="card2" onmouseover="document.getElementById('card2icon').src='./assets/images/insights-white.svg'; 
+            <div class="card" id="card2" onmouseover="document.getElementById('card2icon').src='./assets/images/insights-white.svg'; 
         document.getElementById('card2arrow').src='./assets/images/Arrow 1-white.svg'" onmouseout="document.getElementById('card2icon').src='./assets/images/insights.svg'; 
         document.getElementById('card2arrow').src='./assets/images/Arrow 1.svg'">
-            <div class="card-top">
-                <div class="icon"><img id="card2icon" src="./assets/images/insights.svg" alt=""></div>
-                <div class="arrow"><img id="card2arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                <div class="card-top">
+                    <div class="icon"><img id="card2icon" src="./assets/images/insights.svg" alt=""></div>
+                    <div class="arrow"><img id="card2arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                </div>
+                <h1>Superior insights & forecasts that drive profitable growth</h1>
+                <p>Our deep Al capabilities are embedded across our solutions to deliver prescriptive insights, more
+                    accurate forecasts, and automation to unlock incremental loyalty, sales, and cost savings</p>
             </div>
-            <h1>Superior insights & forecasts that drive profitable growth</h1>
-            <p>Our deep Al capabilities are embedded across our solutions to deliver prescriptive insights, more
-                accurate forecasts, and automation to unlock incremental loyalty, sales, and cost savings</p>
-        </div>
-        <div class="card" id="card3" onmouseover="document.getElementById('card3icon').src='./assets/images/acute-white.svg'; 
+            <div class="card" id="card3" onmouseover="document.getElementById('card3icon').src='./assets/images/acute-white.svg'; 
         document.getElementById('card3arrow').src='./assets/images/Arrow 1-white.svg'" onmouseout="document.getElementById('card3icon').src='./assets/images/acute.svg'; 
         document.getElementById('card3arrow').src='./assets/images/Arrow 1.svg'">
-            <div class="card-top">
-                <div class="icon"><img id="card3icon" src="./assets/images/acute.svg" alt=""></div>
-                <div class="arrow"><img id="card3arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                <div class="card-top">
+                    <div class="icon"><img id="card3icon" src="./assets/images/acute.svg" alt=""></div>
+                    <div class="arrow"><img id="card3arrow" src="./assets/images/Arrow 1.svg" alt=""></div>
+                </div>
+                <h1>Greater speed & agility to exceed shoppers' expectations</h1>
+                <p>Our solutions streamline and simplify core processes to enable the speed and agility that shoppers
+                    and
+                    the market demand.</p>
             </div>
-            <h1>Greater speed & agility to exceed shoppers' expectations</h1>
-            <p>Our solutions streamline and simplify core processes to enable the speed and agility that shoppers and
-                the market demand.</p>
         </div>
-    </div>
 
-    <div class="mid-banner">
-        <div class="mid-banner-container">
-            <h1>Introducing our first Retail CPG
-                Generative Al Copilot
-            </h1>
-            <p>The first use of generative Al to provide category planners with an intelligent Al assistant</p>
-            <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
-                <p>READ MORE</p> <img src="./assets/images/east.svg" alt="">
-            </a>
+        <div class="mid-banner">
+            <div class="mid-banner-container">
+                <h1>Introducing our first Retail CPG
+                    Generative Al Copilot
+                </h1>
+                <p>The first use of generative Al to provide category planners with an intelligent Al assistant</p>
+                <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
+                    <p>READ MORE</p> <img src="./assets/images/east.svg" alt="">
+                </a>
 
-            <div class="video">
-                <div class="video-container">
-                    <div class="v-cards" id="v-cards">
-                        <div class="v-card">
-                            <video width="320" height="240" controls>
-                                <source src="./assets/videos/Clip 1.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+                <div class="video">
+                    <div class="video-container">
+                        <div class="v-cards" id="v-cards">
+                            <div class="v-card">
+                                <video width="320" height="240" controls>
+                                    <source src="./assets/videos/Clip 1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+                            <div class="v-card">
+                                <video width="320" height="240" controls>
+                                    <source src="./assets/videos/Clip 2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+
+
                         </div>
 
-                        <div class="v-card">
-                            <video width="320" height="240" controls>
-                                <source src="./assets/videos/Clip 2.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-
-
-                    </div>
-
-                    <div class="controls">
-                        <div class="arrow-l" onclick="plusSlides(-1);
+                        <div class="controls">
+                            <div class="arrow-l" onclick="plusSlides(-1);
                         document.getElementById('arrow-l').src='../assets/images/arrow-l-off.svg';
                         document.getElementById('arrow-r').src='../assets/images/arrow-r.svg';
                         document.getElementById('dot1').className='dot active';
                         document.getElementById('dot2').className='dot'"><img src="../assets/images/arrow-l-off.svg"
-                                alt="" id="arrow-l"></div>
-                        <div class="dotcontainer">
-                            <div class="dot dot-active" id="dot1" onclick="currentSlide(1)"></div>
-                            <div class="dot" id="dot2" onclick="currentSlide(2)"></div>
-                        </div>
-                        <div class="arrow-r" onclick="plusSlides(1);
+                                    alt="" id="arrow-l"></div>
+                            <div class="dotcontainer">
+                                <div class="dot dot-active" id="dot1" onclick="currentSlide(1)"></div>
+                                <div class="dot" id="dot2" onclick="currentSlide(2)"></div>
+                            </div>
+                            <div class="arrow-r" onclick="plusSlides(1);
                         document.getElementById('arrow-l').src='../assets/images/arrow-l.svg';
                         document.getElementById('arrow-r').src='../assets/images/arrow-r-off.svg';
                         document.getElementById('dot1').className='dot';
                         document.getElementById('dot2').className='dot active'"><img src="../assets/images/arrow-r.svg"
-                                alt="" id="arrow-r"></div>
-                    </div>
+                                    alt="" id="arrow-r"></div>
+                        </div>
 
+                    </div>
+                </div>
+                <!-- <div class="mb-img"><img src="./assets/images/mb-img.svg" alt=""></div> -->
+            </div>
+        </div>
+        <div class="delivery">
+            <div class="delivery-container">
+                <div class="delivery-inner">
+                    <img src="./assets/images/delivery-list.svg" alt="">
                 </div>
             </div>
-            <!-- <div class="mb-img"><img src="./assets/images/mb-img.svg" alt=""></div> -->
         </div>
-    </div>
-    <div class="delivery">
-        <div class="delivery-container">
-            <div class="delivery-inner">
-                <img src="./assets/images/delivery-list.svg" alt="">
-            </div>
+        <div class="power">
+            <h1>The Power of Connectivity</h1>
+            <p>How our Solutions Work Together to Solve Retail’s Thorniest Problems </p>
         </div>
-    </div>
-    <div class="power">
-        <h1>The Power of Connectivity</h1>
-        <p>How our Solutions Work Together to Solve Retail’s Thorniest Problems </p>
-    </div>
 
-    <div class="power-card" id="powercard">
-        <div class="power-card-container">
+        <div class="power-card" id="powercard">
+            <div class="power-card-container">
 
 
-            <div class="card">
-                <div class="icon"><img src="./assets/images/p1.svg" alt=""></div>
-                <button class="power-btn active" onclick="document.getElementById('dc1').style.display='block';
+                <div class="card">
+                    <div class="icon"><img src="./assets/images/p1.svg" alt=""></div>
+                    <button class="power-btn active" onclick="document.getElementById('dc1').style.display='block';
                 document.getElementById('dc2').style.display='none';
                 document.getElementById('dc3').style.display='none';
                 document.getElementById('dc4').style.display='none';">Availability</button>
-            </div>
-            <div class="card">
-                <div class="icon"><img src="./assets/images/p2.png" alt=""></div>
-                <button class="power-btn" onclick="document.getElementById('dc1').style.display='none';
+                </div>
+                <div class="card">
+                    <div class="icon"><img src="./assets/images/p2.png" alt=""></div>
+                    <button class="power-btn" onclick="document.getElementById('dc1').style.display='none';
                 document.getElementById('dc2').style.display='block';
                 document.getElementById('dc3').style.display='none';
                 document.getElementById('dc4').style.display='none';">Omnichannel Touch Point</button>
-            </div>
-            <div class="card">
-                <div class="icon"><img src="./assets/images/p3.png" alt=""></div>
-                <button class="power-btn">Assortment</button>
-            </div>
-            <div class="card">
-                <div class="icon"><img src="./assets/images/p4.svg" alt=""></div>
-                <button class="power-btn">Fresh</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="dynamic" id="dynamic">
-        <div class="dynamic-container dc" id="dc1">
-            <h1>Dynamic view of availability</h1>
-            <p>Customer satisfaction and loyalty hinges on ability to find the products they seek, when they want it,
-                and in their preferred channels. Yet, avoidable issues still persist such as regular out-of-stocks, lack
-                of connection between shopper online ordering platforms and store inventory, and demand forecasting
-                models that lag real-time demand changes</p>
-            <div class="dynamic-flow-container">
-                <div class="root">
-                    <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
-                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                            src="./assets/images/store-intel-main.svg" alt=""></div>
-                    <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
-                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                            src="./assets/images/store-intel-tags.svg" alt=""></div>
                 </div>
-                <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/storeintel-l1-lines.svg" alt=""></div>
-                <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l1.svg"
-                        alt=""></div>
-                <div class="level-two-lines" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2050"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/storeintel-l2-lines.svg" alt=""></div>
-                <div class="level-two" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2550"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l2.svg"
-                        alt=""></div>
-            </div>
-            <div class="dynamic-foot">
-                <p><strong>The impact:</strong> A dynamic shelf-aware workstream, decreased out-of-stocks, increased
-                    compliance, lower inventory cost, and the speed and nimbleness to move quickly when conditions
-                    change</p>
-            </div>
-
-        </div>
-        <div class="dynamic-container-2 dc" id="dc2">
-            <h1>Dynamic view of consistent omnichannel experiences </h1>
-            <p>As customer journeys become increasingly complex, winning customer loyalty requires seamless and
-                consistent experiences across all channels. </p>
-            <div class="dynamic-flow-container">
-                <div class="root">
-                    <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="0"
-                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                            src="./assets/images/store-intel-2-main.svg" alt=""></div>
-                    <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
-                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                            src="./assets/images/store-intel-2-tags.svg" alt=""></div>
+                <div class="card">
+                    <div class="icon"><img src="./assets/images/p3.png" alt=""></div>
+                    <button class="power-btn">Assortment</button>
                 </div>
-                <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/store-intel-2-l1-lines.svg" alt=""></div>
-                <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/store-intel-2-l1.svg" alt=""></div>
-                <div class="level-two-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2050"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/store-intel-2-l2-lines.svg" alt=""></div>
-                <div class="level-two" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2550"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
-                        src="./assets/images/store-intel-2-l2.svg" alt=""></div>
+                <div class="card">
+                    <div class="icon"><img src="./assets/images/p4.svg" alt=""></div>
+                    <button class="power-btn">Fresh</button>
+                </div>
             </div>
-            <div class="dynamic-foot">
-                <p><strong>The impact:</strong> Seamless and consistent shopper experiences that bridge the divide
-                    between online and the physical store, leading to high shopper loyalty and revenue growth, as well
-                    as lower costs due to fewer refunds and less waste</p>
-            </div>
-
         </div>
-        <div class="dynamic-container dc" id="dc3"></div>
-        <div class="dynamic-container dc" ic="dc4"></div>
-    </div>
 
-    <div class="trusted">
-        <div class="trusted-container">
-            <h1>Trusted by hundreds of the world’s leading retailers and manufacturers</h1>
-            <div class="options">
-                <div class="btn-retail" onclick="document.getElementById('tm1').style.display='block';
+        <div class="dynamic" id="dynamic">
+            <div class="dynamic-container dc" id="dc1">
+                <h1>Dynamic view of availability</h1>
+                <p>Customer satisfaction and loyalty hinges on ability to find the products they seek, when they want
+                    it,
+                    and in their preferred channels. Yet, avoidable issues still persist such as regular out-of-stocks,
+                    lack
+                    of connection between shopper online ordering platforms and store inventory, and demand forecasting
+                    models that lag real-time demand changes</p>
+                <div class="dynamic-flow-container">
+                    <div class="root">
+                        <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
+                            data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                                src="./assets/images/store-intel-main.svg" alt=""></div>
+                        <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                            data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                                src="./assets/images/store-intel-tags.svg" alt=""></div>
+                    </div>
+                    <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/storeintel-l1-lines.svg" alt=""></div>
+                    <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-l1.svg" alt=""></div>
+                    <div class="level-two-lines" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2050"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/storeintel-l2-lines.svg" alt=""></div>
+                    <div class="level-two" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2550"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-l2.svg" alt=""></div>
+                    <div class="dny-small">
+                        <img src="./assets/images/dyn-avai.svg" alt="">
+                    </div>
+                </div>
+                <div class="dynamic-foot">
+                    <p><strong>The impact:</strong> A dynamic shelf-aware workstream, decreased out-of-stocks, increased
+                        compliance, lower inventory cost, and the speed and nimbleness to move quickly when conditions
+                        change</p>
+                </div>
+
+            </div>
+            <div class="dynamic-container-2 dc" id="dc2">
+                <h1>Dynamic view of consistent omnichannel experiences </h1>
+                <p>As customer journeys become increasingly complex, winning customer loyalty requires seamless and
+                    consistent experiences across all channels. </p>
+                <div class="dynamic-flow-container">
+                    <div class="root">
+                        <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="0"
+                            data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                                src="./assets/images/store-intel-2-main.svg" alt=""></div>
+                        <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
+                            data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                                src="./assets/images/store-intel-2-tags.svg" alt=""></div>
+                    </div>
+                    <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-l1-lines.svg" alt=""></div>
+                    <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-l1.svg" alt=""></div>
+                    <div class="level-two-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2050"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-l2-lines.svg" alt=""></div>
+                    <div class="level-two" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2550"
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-l2.svg" alt=""></div>
+
+                    <div class="dny-small">
+                        <img src="./assets/images/dyn-omni.svg" alt="">
+                    </div>
+                </div>
+                <div class="dynamic-foot">
+                    <p><strong>The impact:</strong> Seamless and consistent shopper experiences that bridge the divide
+                        between online and the physical store, leading to high shopper loyalty and revenue growth, as
+                        well
+                        as lower costs due to fewer refunds and less waste</p>
+                </div>
+
+            </div>
+            <div class="dynamic-container dc" id="dc3"></div>
+            <div class="dynamic-container dc" ic="dc4"></div>
+        </div>
+
+        <div class="trusted">
+            <div class="trusted-container">
+                <h1>Trusted by hundreds of the world’s leading retailers and manufacturers</h1>
+                <div class="options">
+                    <div class="btn-retail" onclick="document.getElementById('tm1').style.display='block';
                 document.getElementById('tm2').style.display='none';
                 ">Retail</div>
-                <div class="btn-cpg" onclick="document.getElementById('tm2').style.display='block';
+                    <div class="btn-cpg" onclick="document.getElementById('tm2').style.display='block';
                 document.getElementById('tm1').style.display='none';
                 ">CPG</div>
-            </div>
-            <div class="trusted-main-2" id="tm1">
-                <div class="trusted-top">Retail</div>
-                <div class="trusted-bottom"><img src="./assets/images/retail-img-1.svg" alt="">
-                    <div class="img-2"><img src="./assets/images/retail-img-2.png" alt=""></div>
                 </div>
-            </div>
-            <div class="trusted-main" id="tm2">
-                <div class="trusted-top">Consumer packaged goods</div>
-                <div class="trusted-bottom"><img src="./assets/images/cpg-img-1.svg" alt="">
-                    <div class="img-2"><img src="./assets/images/Rectangle 4173.png" alt=""></div>
+                <div class="trusted-main-2" id="tm1">
+                    <div class="trusted-top">Retail</div>
+                    <div class="trusted-bottom"><img src="./assets/images/retail-img-1.svg" alt="">
+                        <div class="img-2"><img src="./assets/images/retail-img-2.png" alt=""></div>
+                    </div>
                 </div>
-            </div>
+                <div class="trusted-main" id="tm2">
+                    <div class="trusted-top">Consumer packaged goods</div>
+                    <div class="trusted-bottom"><img src="./assets/images/cpg-img-1.svg" alt="">
+                        <div class="img-2"><img src="./assets/images/Rectangle 4173.png" alt=""></div>
+                    </div>
+                </div>
 
+            </div>
         </div>
-    </div>
-    <div class="customer">
-        <div class="customer-container">
-            <h1>Customer Stories</h1>
-            <div class="cust-cards">
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/image 129.png" alt=""></div>
-                    <h1>PepsiCo Northern Europe embraces SymphonyAI Retail shopper insights to build business across
-                        multiple categories</h1>
-                    <p>24 Apr 2023</p>
-                    <a href="">READ MORE</a>
-                </div>
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/Screenshot 2023-03-26 at 12.47 1.png" alt=""></div>
-                    <h1>Action Enhances Symphony RetailAI Warehouse Replenishment and Supplier Collaboration</h1>
-                    <p>25 May 2022</p>
-                    <a href="">READ MORE</a>
-                </div>
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/cust3.png" alt=""></div>
-                    <h1>Extrafarma Improves Customer Engagement and Loyalty Through Its Ongoing Partnership with
-                        SymphonyAI</h1>
-                    <p>25 Mar 2022</p>
-                    <a href="">READ MORE</a>
+        <div class="customer">
+            <div class="customer-container">
+                <h1>Customer Stories</h1>
+                <div class="cust-cards">
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/image 129.png" alt=""></div>
+                        <h1>PepsiCo Northern Europe embraces SymphonyAI Retail shopper insights to build business across
+                            multiple categories</h1>
+                        <p>24 Apr 2023</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/Screenshot 2023-03-26 at 12.47 1.png" alt="">
+                        </div>
+                        <h1>Action Enhances Symphony RetailAI Warehouse Replenishment and Supplier Collaboration</h1>
+                        <p>25 May 2022</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/cust3.png" alt=""></div>
+                        <h1>Extrafarma Improves Customer Engagement and Loyalty Through Its Ongoing Partnership with
+                            SymphonyAI</h1>
+                        <p>25 Mar 2022</p>
+                        <a href="">READ MORE</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="more">
-        <div class="more-container">
-            <div class="more-left">
-                <h1>More from
-                    SymphonyAI Retail </h1>
-                <div class="btns">
-                    <img src="./assets/images/left-more.svg" alt="">
-                    <img src="./assets/images/right-more.svg" alt="">
+        <div class="more">
+            <div class="more-container">
+                <div class="more-left">
+                    <h1>More from
+                        SymphonyAI Retail </h1>
+                    <div class="btns">
+                        <img src="./assets/images/left-more.svg" alt="">
+                        <img src="./assets/images/right-more.svg" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="more-right">
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/image 5.png" alt=""></div>
-                    <h1>Solving the Retail Paradox with Store Intelligence</h1>
-                    <p>9th March 2023</p>
-                </div>
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/image 7.png" alt=""></div>
-                    <h1>Five Ways Retailers Can Improve Store Execution</h1>
-                    <p>9th March 2023</p>
-                </div>
-                <div class="card">
-                    <div class="card-img"><img src="./assets/images/image 8.png" alt=""></div>
-                    <h1>The 7 Traits of Customer-Centric Retailers</h1>
-                    <p>9th March 2023</p>
+                <div class="more-right">
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/image 5.png" alt=""></div>
+                        <h1>Solving the Retail Paradox with Store Intelligence</h1>
+                        <p>9th March 2023</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/image 7.png" alt=""></div>
+                        <h1>Five Ways Retailers Can Improve Store Execution</h1>
+                        <p>9th March 2023</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="./assets/images/image 8.png" alt=""></div>
+                        <h1>The 7 Traits of Customer-Centric Retailers</h1>
+                        <p>9th March 2023</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="footer">
+                <h1>Let’s talk about future of Retail</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+                <a href="https://www.symphonyretailai.com/contact/"><button>Contact us</button></a>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <div class="footer">
-            <h1>Let’s talk about future of Retail</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-            <a href="https://www.symphonyretailai.com/contact/"><button>Contact us</button></a>
-        </div>
-    </footer>
 
     <script>
         function LeftToggle() {
@@ -546,7 +574,7 @@
         for (var i = 0; i < powerbtns.length; i++) {
             powerbtns[i].addEventListener("click", function () {
                 var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
+                current[0].className = current[0].className.replace("active", "");
                 this.className += " active";
             });
         }
