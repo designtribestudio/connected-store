@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="m-list" id="mList" data-aos="fade-right" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="1000" data-aos-easing="ease-in-out" >
+                    data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <img src="./assets/images/mer-list.svg" alt="">
                 </div>
             </div>
@@ -259,7 +259,49 @@
             <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
                 <p>READ MORE</p> <img src="./assets/images/east.svg" alt="">
             </a>
-            <div class="mb-img"><img src="./assets/images/mb-img.svg" alt=""></div>
+
+            <div class="video">
+                <div class="video-container">
+                    <div class="v-cards" id="v-cards">
+                        <div class="v-card">
+                            <video width="320" height="240" controls>
+                                <source src="./assets/videos/Clip 1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                        <div class="v-card">
+                            <video width="320" height="240" controls>
+                                <source src="./assets/videos/Clip 2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+
+                    </div>
+
+                    <div class="controls">
+                        <div class="arrow-l" onclick="plusSlides(-1);
+                        document.getElementById('arrow-l').src='../assets/images/arrow-l-off.svg';
+                        document.getElementById('arrow-r').src='../assets/images/arrow-r.svg';
+                        document.getElementById('dot1').className='dot active';
+                        document.getElementById('dot2').className='dot'"><img src="../assets/images/arrow-l-off.svg"
+                                alt="" id="arrow-l"></div>
+                        <div class="dotcontainer">
+                            <div class="dot active" id="dot1" onclick="currentSlide(1)"></div>
+                            <div class="dot" id="dot2" onclick="currentSlide(2)"></div>
+                        </div>
+                        <div class="arrow-r" onclick="plusSlides(1);
+                        document.getElementById('arrow-l').src='../assets/images/arrow-l.svg';
+                        document.getElementById('arrow-r').src='../assets/images/arrow-r-off.svg';
+                        document.getElementById('dot1').className='dot';
+                        document.getElementById('dot2').className='dot active'"><img src="../assets/images/arrow-r.svg"
+                                alt="" id="arrow-r"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <div class="mb-img"><img src="./assets/images/mb-img.svg" alt=""></div> -->
         </div>
     </div>
     <div class="delivery">
@@ -311,20 +353,26 @@
                 of connection between shopper online ordering platforms and store inventory, and demand forecasting
                 models that lag real-time demand changes</p>
             <div class="dynamic-flow-container">
-                <div class="root" >
+                <div class="root">
                     <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-main.svg" alt=""></div>
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-main.svg" alt=""></div>
                     <div class="root-tags" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-tags.svg" alt=""></div>
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-tags.svg" alt=""></div>
                 </div>
                 <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/storeintel-l1-lines.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/storeintel-l1-lines.svg" alt=""></div>
                 <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l1.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l1.svg"
+                        alt=""></div>
                 <div class="level-two-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2050"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/storeintel-l2-lines.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/storeintel-l2-lines.svg" alt=""></div>
                 <div class="level-two" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2550"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l2.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l2.svg"
+                        alt=""></div>
             </div>
             <div class="dynamic-foot">
                 <p><strong>The impact:</strong> A dynamic shelf-aware workstream, decreased out-of-stocks, increased
@@ -335,25 +383,34 @@
         </div>
         <div class="dynamic-container-2 dc" id="dc2">
             <h1>Dynamic view of consistent omnichannel experiences </h1>
-            <p>As customer journeys become increasingly complex, winning customer loyalty requires seamless and consistent experiences across all channels. </p>
+            <p>As customer journeys become increasingly complex, winning customer loyalty requires seamless and
+                consistent experiences across all channels. </p>
             <div class="dynamic-flow-container">
                 <div class="root">
                     <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="0"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-main.svg" alt=""></div>
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-main.svg" alt=""></div>
                     <div class="root-tags" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
-                    data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-tags.svg" alt=""></div>
+                        data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                            src="./assets/images/store-intel-2-tags.svg" alt=""></div>
                 </div>
                 <div class="level-one-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1050"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-l1-lines.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/store-intel-2-l1-lines.svg" alt=""></div>
                 <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-l1.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/store-intel-2-l1.svg" alt=""></div>
                 <div class="level-two-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2050"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-l2-lines.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/store-intel-2-l2-lines.svg" alt=""></div>
                 <div class="level-two" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2550"
-                data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-2-l2.svg" alt=""></div>
+                    data-aos-duration="500" data-aos-easing="ease-in-out"><img
+                        src="./assets/images/store-intel-2-l2.svg" alt=""></div>
             </div>
             <div class="dynamic-foot">
-                <p><strong>The impact:</strong> Seamless and consistent shopper experiences that bridge the divide between online and the physical store, leading to high shopper loyalty and revenue growth, as well as lower costs due to fewer refunds and less waste</p>
+                <p><strong>The impact:</strong> Seamless and consistent shopper experiences that bridge the divide
+                    between online and the physical store, leading to high shopper loyalty and revenue growth, as well
+                    as lower costs due to fewer refunds and less waste</p>
             </div>
 
         </div>
@@ -384,7 +441,7 @@
                     <div class="img-2"><img src="./assets/images/Rectangle 4173.png" alt=""></div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <div class="customer">
@@ -492,6 +549,35 @@
                 current[0].className = current[0].className.replace(" active", "");
                 this.className += " active";
             });
+        }
+    </script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("v-card");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
         }
     </script>
 
