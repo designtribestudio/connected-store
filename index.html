@@ -288,7 +288,7 @@
                         document.getElementById('dot2').className='dot'"><img src="../assets/images/arrow-l-off.svg"
                                 alt="" id="arrow-l"></div>
                         <div class="dotcontainer">
-                            <div class="dot active" id="dot1" onclick="currentSlide(1)"></div>
+                            <div class="dot dot-active" id="dot1" onclick="currentSlide(1)"></div>
                             <div class="dot" id="dot2" onclick="currentSlide(2)"></div>
                         </div>
                         <div class="arrow-r" onclick="plusSlides(1);
@@ -357,7 +357,7 @@
                     <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
                         data-aos-duration="500" data-aos-easing="ease-in-out"><img
                             src="./assets/images/store-intel-main.svg" alt=""></div>
-                    <div class="root-tags" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
+                    <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
                         data-aos-duration="500" data-aos-easing="ease-in-out"><img
                             src="./assets/images/store-intel-tags.svg" alt=""></div>
                 </div>
@@ -367,10 +367,10 @@
                 <div class="level-one" data-aos="fade-in" data-aos-offset="400" data-aos-delay="1550"
                     data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l1.svg"
                         alt=""></div>
-                <div class="level-two-lines" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2050"
+                <div class="level-two-lines" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2050"
                     data-aos-duration="500" data-aos-easing="ease-in-out"><img
                         src="./assets/images/storeintel-l2-lines.svg" alt=""></div>
-                <div class="level-two" data-aos="fade-in" data-aos-offset="400" data-aos-delay="2550"
+                <div class="level-two" data-aos="fade-in" data-aos-offset="0" data-aos-delay="2550"
                     data-aos-duration="500" data-aos-easing="ease-in-out"><img src="./assets/images/store-intel-l2.svg"
                         alt=""></div>
             </div>
@@ -390,7 +390,7 @@
                     <div class="root-img" data-aos="fade-in" data-aos-offset="400" data-aos-delay="0"
                         data-aos-duration="500" data-aos-easing="ease-in-out"><img
                             src="./assets/images/store-intel-2-main.svg" alt=""></div>
-                    <div class="root-tags" data-aos="fade-in" data-aos-offset="400" data-aos-delay="50"
+                    <div class="root-tags" data-aos="fade-in" data-aos-offset="200" data-aos-delay="50"
                         data-aos-duration="500" data-aos-easing="ease-in-out"><img
                             src="./assets/images/store-intel-2-tags.svg" alt=""></div>
                 </div>
@@ -574,10 +574,10 @@
                 slides[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+                dots[i].className = dots[i].className.replace("dot-active", "");
             }
             slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
+            dots[slideIndex - 1].className += " dotactive";
         }
     </script>
 
