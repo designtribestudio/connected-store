@@ -1468,3 +1468,7 @@ footer::after {
 }
 
 /* ADDED */
+
+.main-small{
+    display: none;
+}

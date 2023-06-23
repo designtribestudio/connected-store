@@ -148,6 +148,10 @@
         display: none;
     }
 
+    .main-small{
+        display: block;
+    }
+
     .main .main-container .main-img-container .main-img-small{
         width: calc(100vw - 20px);
     }
