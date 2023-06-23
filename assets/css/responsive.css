@@ -304,6 +304,7 @@
     }
 
     .connect-small{
+        display: block;
         width: 100vw;
     }
 
@@ -1109,6 +1110,7 @@
     }
     
     .dny-small, .dny-small img{
+        display: block;
         width: calc(100vw - 20px);
 
     }
