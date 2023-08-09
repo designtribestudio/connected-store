@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Copilot List</title>
+</head>
+
+<body>
+    <div class="body-wrap">
+        <nav>
+            <div class="navbar">
+                <div class="logo"><a href=""><img src="../assets/images/logo.png" alt=""></a></div>
+                <div class="links">
+                    <a href="">Solutions</a>
+                    <a href="">Resources</a>
+                    <a href="">Events</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                    <a href=""><img src="../assets/images/search.png" alt=""></a>
+                    <a href="#main"><button class="search">GET STARTED</button></a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div class="hero-container">
+                <h1>Connected AI Solutions for
+                    Smarter FMCG Retail CPG</h1>
+                <p>Bringing next generation AI-powered solutions to the Retail / CPG value chain to enable customer
+                    closeness, agility, and speed for today’s challenges and tomorrow’s solutions</p>
+                <div class="darrow"><img src="./assets/images/down-arrow.svg" alt=""></div>
+            </div>
+        </div>
+
+       
+        <div class="main" id="main">
+            <h1 class="main-head"> Our <span>AI-driven</span> Retail CPG Generative Al Copilots </h1>
+        </div>
+       
+
+        <div class="mid-banner">
+            <div class="mid-banner-container">
+                <h1>Introducing our first Retail CPG
+                    Generative Al Copilot
+                </h1>
+                <p class="subhead">The first use of generative Al to provide category planners with an intelligent Al assistant</p>
+                <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
+                    <p>READ MORE</p> <img src="../assets/images/east.svg" alt="">
+                </a>
+
+                <div class="video">
+                    <div class="video-container">
+                            <img src="./images/Screenshot 2023-06-08 at 5.16 1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mid-banner">
+            <div class="mid-banner-container">
+                <h1>Shelf intelligence Generative Al Copilot</h1>
+                <p class="subhead">The first use of generative Al to provide category planners with an intelligent Al assistant</p>
+                <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
+                    <p>READ MORE</p> <img src="../assets/images/east.svg" alt="">
+                </a>
+
+                <div class="video">
+                    <div class="video-container">
+                            <img src="./images/DFAI Dashboard - Overview 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mid-banner">
+            <div class="mid-banner-container">
+                <h1>DFAI Generative Al Copilot
+                </h1>
+                <p class="subhead">The first use of generative Al to provide category planners with an intelligent Al assistant</p>
+                <a class="goto" href="https://www.symphonyretailai.com/category-planning/">
+                    <p>READ MORE</p> <img src="../assets/images/east.svg" alt="">
+                </a>
+
+                <div class="video">
+                    <div class="video-container">
+                            <img src="./images/DFAI Dashboard - Overview 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <h1>Let’s talk about future of Retail</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+                <a href="https://www.symphonyretailai.com/contact/"><button>Contact us</button></a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function LeftToggle() {
+            var leftMore = document.getElementById("leftMore");
+            var tp1 = document.getElementById("tp1");
+            if (leftMore.className == 'not-active') {
+                leftMore.className = 'active';
+                leftMore.innerText = '-';
+                tp1.style.visibility = 'visible';
+            }
+            else {
+                leftMore.className = 'not-active';
+                leftMore.innerText = '+';
+                tp1.style.visibility = 'hidden';
+            }
+        }
+
+        function RightToggle() {
+            var rightMore = document.getElementById("rightMore");
+            var tp2 = document.getElementById("tp2");
+            if (rightMore.className == 'not-active') {
+                rightMore.className = 'active';
+                rightMore.innerText = '-';
+                tp2.style.visibility = 'visible';
+            }
+            else {
+                rightMore.className = 'not-active';
+                rightMore.innerText = '+';
+                tp2.style.visibility = 'hidden';
+            }
+        }
+
+        var powercard = document.getElementById("powercard");
+        var powerbtns = powercard.getElementsByClassName("power-btn");
+        for (var i = 0; i < powerbtns.length; i++) {
+            powerbtns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace("active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("v-card");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("dot-active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " dotactive";
+        }
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

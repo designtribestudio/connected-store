@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+  }
+.hero {
+    width: 100vw;
+    padding: 300px 0 50px 0;
+    background: url('./images/Subtract.svg');
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    z-index: -1;
+}
+
+.main{
+    padding: 100px 0;
+}
+.main .main-head{
+    font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+
+.main .main-head span{
+    color: #01CAA9;
+}
+
+.mid-banner{
+    padding: 0;
+    margin: 0;
+}
+.mid-banner-container{
+    background: linear-gradient(149deg,rgba(0, 231, 187, 1), rgba(88, 142, 238, 1));
+}
+.mid-banner .mid-banner-container .subhead{
+    margin: 0 250px;
+}
+
+.mid-banner .mid-banner-container .video{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.goto{
+    margin: 30px auto 20px auto;
+    width: 165px;
+}
+
+.goto:hover{
+    width: 190px;
+}
+.goto p{
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+footer {
+    width: 100vw;
+    background: linear-gradient(135deg, #00E7BB 0%, #4F9CEC 100%);
+    padding: 72px 0;
+    position: relative;
+}
+footer::after {
+    content: url('./images/Group\ 427.svg');
+    position: absolute;
+    top: -20px;
+    right: 0;
+}
+
